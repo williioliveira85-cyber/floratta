@@ -38,7 +38,8 @@ jobs:
       - name: Criar projeto Android se nao existir
         run: |
           if [ ! -d android ]; then
-            npx cap init app com.wiliana.app --web-dir dist
+            rm -f capacitor.config.ts
+            echo '{"appId":"com.wiliana.app","appName":"app","webDir":"dist"}' > capacitor.config.json
             npx cap add android
           fi
 
