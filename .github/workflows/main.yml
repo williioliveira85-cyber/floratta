@@ -57,6 +57,3 @@ jobs:
           tag_name: v${{ github.run_number }}
           name: Versao ${{ github.run_number }}
           files: android/app/build/outputs/apk/debug/app-debug.apk
-• Se o fluxo ficar com um X vermelho, abra a execução, clique no passo que falhou e copie a mensagem de erro. Me mande que eu ajusto o roteiro.
-• Se a pasta do site gerado não se chamar dist, troque dist por build na linha do cap init.
-• Para instalar o APK no celular, baixe o arquivo pelo navegador do aparelho e permita a instalação de fontes desconhecidas quando o Android pedir.
