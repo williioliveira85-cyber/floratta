@@ -27,10 +27,10 @@ jobs:
           java-version: 17
 
       - name: Instalar dependencias do app
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Instalar Capacitor
-        run: npm install @capacitor/core @capacitor/cli @capacitor/android
+        run: npm install @capacitor/core @capacitor/cli @capacitor/android --legacy-peer-deps
 
       - name: Gerar o site
         run: npm run build
