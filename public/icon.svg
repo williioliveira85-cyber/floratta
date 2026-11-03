@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e0b2e" />
+      <stop offset="50%" stop-color="#2d0d3d" />
+      <stop offset="100%" stop-color="#12051e" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="50%" stop-color="#d946ef" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="220" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-opacity="0.3" />
+  
+  <!-- Perfume Bottle Graphic with Flower Silhouette -->
+  <g filter="url(#glow)" transform="translate(136, 120)">
+    <!-- Sprayer Cap -->
+    <rect x="95" y="10" width="50" height="36" rx="8" fill="url(#accentGrad)" />
+    <!-- Neck -->
+    <rect x="107" y="46" width="26" height="24" rx="4" fill="#f472b6" opacity="0.8" />
+    <!-- Main Bottle Body -->
+    <path d="M 40 76 L 200 76 C 220 76 236 92 236 112 L 236 240 C 236 260 220 276 200 276 L 40 276 C 20 276 4 260 4 240 L 4 112 C 4 92 20 76 40 76 Z" 
+          fill="url(#accentGrad)" fill-opacity="0.25" stroke="url(#accentGrad)" stroke-width="8" />
+    <!-- Flower Petals in Center -->
+    <path d="M120 135 C100 115 80 145 105 165 C80 175 100 215 120 190 C140 215 160 175 135 165 C160 145 140 115 120 135 Z" fill="url(#accentGrad)" />
+    <!-- Highlight Reflection -->
+    <path d="M 24 100 L 24 240" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.4" />
+  </g>
+  <text x="256" y="445" font-family="'Plus Jakarta Sans', sans-serif" font-size="36" font-weight="800" fill="#fdf4ff" letter-spacing="4" text-anchor="middle">FLORATTA</text>
+</svg>

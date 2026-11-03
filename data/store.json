@@ -1,0 +1,321 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Floratta Fleur Supreme Eau de Parfum",
+      "brand": "Floratta Cosmético",
+      "description": "Fragrância floral amadeirada marcante com o exclusivo acorde Ylang Ylang de Grasse e notas de bergamota fresca, patchouli e baunilha dourada. Fixação superior para ocasiões inesquecíveis.",
+      "price": 189.9,
+      "categoryId": "cat-perfumes",
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=800&q=80"
+      ],
+      "notes": "Topo: Bergamota, Pêssego Rosa | Coração: Ylang Ylang, Rosa de Maio | Fundo: Baunilha, Âmbar, Patchouli",
+      "volume": "75ml",
+      "isFeatured": true,
+      "stock": 24,
+      "createdAt": "2026-11-02T23:04:19.444Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Floratta Rose Sensuelle Desodorante Colônia",
+      "brand": "Floratta Cosmético",
+      "description": "Romântica, alegre e envolvente. Uma combinação moderna de pétalas de rosas búlgaras e frutas vermelhas frescas com toque almiscarado.",
+      "price": 149.9,
+      "categoryId": "cat-perfumes",
+      "images": [
+        "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "notes": "Topo: Frutas Vermelhas, Mandarina | Coração: Rosa Damascena, Gardênia | Fundo: Almíscar Branco, Cedro",
+      "volume": "100ml",
+      "isFeatured": false,
+      "stock": 18,
+      "createdAt": "2026-11-02T23:04:19.445Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Floratta Gold Intenso Elixir",
+      "brand": "Floratta Cosmético",
+      "description": "Para quem ama brilhar. Notas quentes de baunilha oriental, orquídea dourada e madeira de cashmere. Sedutor e duradouro.",
+      "price": 169.9,
+      "categoryId": "cat-perfumes",
+      "images": [
+        "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "notes": "Topo: Abacaxi Glaceado, Flor de Laranjeira | Coração: Orquídea Dourada, Heliotrópio | Fundo: Sândalo, Baunilha",
+      "volume": "90ml",
+      "isFeatured": false,
+      "stock": 12,
+      "createdAt": "2026-11-02T23:04:19.445Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Batom Velvet Matte Floratta Vermelho Imperial",
+      "brand": "Floratta Cosmético",
+      "description": "Acabamento matte aveludado de altíssima pigmentação, com ácido hialurônico que hidrata os lábios por até 18 horas sem ressecar.",
+      "price": 54.9,
+      "categoryId": "cat-batons",
+      "images": [
+        "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?auto=format&fit=crop&w=800&q=80"
+      ],
+      "notes": "Acabamento: Matte Aveludado | Cor: Vermelho Imperial 01 | Com Ácido Hialurônico",
+      "volume": "4g",
+      "stock": 45,
+      "createdAt": "2026-11-02T23:04:19.445Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "Gloss Labial Holographic Diamond Pink",
+      "brand": "Floratta Cosmético",
+      "description": "Brilho espelhado cristalino com micropartículas de pérolas refletoras de luz e manteiga de karité.",
+      "price": 49.9,
+      "categoryId": "cat-batons",
+      "images": [
+        "https://images.unsplash.com/photo-1599305090598-fe179d501227?auto=format&fit=crop&w=800&q=80"
+      ],
+      "notes": "Efeito Plump | Vitamina E | Textura Confortável não grudenta",
+      "volume": "5ml",
+      "stock": 30,
+      "createdAt": "2026-11-02T23:04:19.445Z"
+    },
+    {
+      "id": "prod-6",
+      "name": "Sérum Facial Radiance Iluminador com Niacinamida",
+      "brand": "Floratta Cosmético",
+      "description": "Tratamento de alta performance para renovar o viço, uniformizar o tom e hidratar profundamente a pele com textura levíssima toque seco.",
+      "price": 119.9,
+      "categoryId": "cat-skincare",
+      "images": [
+        "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1608248597359-7104d49f032d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "notes": "Ativos: Niacinamida 10%, Ácido Hialurônico Puro e Extrato de Orquídea",
+      "volume": "30ml",
+      "stock": 22,
+      "createdAt": "2026-11-02T23:04:19.445Z"
+    },
+    {
+      "id": "prod-7",
+      "name": "Máscara Capilar Nutrição de Seda com Óleo de Ojen",
+      "brand": "Floratta Cosmético",
+      "description": "Restauração profunda dos fios desidratados. Devolve o brilho luminoso, sela as cutículas e combate o frizz instantaneamente.",
+      "price": 89.9,
+      "categoryId": "cat-cabelo",
+      "images": [
+        "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=800&q=80"
+      ],
+      "notes": "Tratamento intensivo anti-porosidade com aroma floral sofisticado",
+      "volume": "250g",
+      "stock": 19,
+      "createdAt": "2026-11-02T23:04:19.445Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-perfumes",
+      "name": "Perfumes & Fragrâncias",
+      "slug": "perfumes",
+      "icon": "Sparkles"
+    },
+    {
+      "id": "cat-batons",
+      "name": "Batons & Lábios",
+      "slug": "batons",
+      "icon": "Heart"
+    },
+    {
+      "id": "cat-maquiagem",
+      "name": "Maquiagem & Rosto",
+      "slug": "maquiagem",
+      "icon": "Smile"
+    },
+    {
+      "id": "cat-skincare",
+      "name": "Skincare & Tratamento",
+      "slug": "skincare",
+      "icon": "Droplets"
+    },
+    {
+      "id": "cat-cabelo",
+      "name": "Cuidados com o Cabelo",
+      "slug": "cabelo",
+      "icon": "Flame"
+    }
+  ],
+  "clients": [
+    {
+      "id": "cli-1",
+      "name": "Mariana Silva Santos",
+      "cpf": "123.456.789-00",
+      "phone": "(11) 98765-4321",
+      "email": "mariana.silva@email.com",
+      "address": {
+        "street": "Rua das Flores",
+        "number": "250",
+        "neighborhood": "Jardins",
+        "city": "São Paulo",
+        "state": "SP",
+        "zip": "01415-000"
+      },
+      "documentUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=600&q=80",
+      "selfieUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+      "consentLgpd": true,
+      "firstAccessAt": "2026-10-28T23:04:19.445Z",
+      "registrationCompletedAt": "2026-10-30T23:04:19.445Z"
+    },
+    {
+      "id": "cli-2",
+      "name": "Carlos Eduardo Ramos",
+      "cpf": "321.654.987-11",
+      "phone": "(21) 97654-3210",
+      "email": "carlos.ramos@email.com",
+      "address": {
+        "street": "Avenida Atlântica",
+        "number": "1200",
+        "neighborhood": "Copacabana",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "zip": "22070-000"
+      },
+      "documentUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+      "selfieUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80",
+      "consentLgpd": true,
+      "firstAccessAt": "2026-10-25T23:04:19.445Z",
+      "registrationCompletedAt": "2026-10-26T23:04:19.445Z"
+    }
+  ],
+  "carnes": [
+    {
+      "id": "carne-1",
+      "code": "FLOR-2026-001",
+      "clientId": "cli-1",
+      "clientName": "Mariana Silva Santos",
+      "clientCpf": "123.456.789-00",
+      "clientPhone": "(11) 98765-4321",
+      "totalOriginal": 189.9,
+      "interestRate": 2,
+      "totalFinal": 197.5,
+      "installmentsCount": 4,
+      "status": "em_dia",
+      "createdAt": "2026-10-08T23:04:19.445Z",
+      "installments": [
+        {
+          "number": 1,
+          "dueDate": "2026-11-10",
+          "amount": 49.38,
+          "status": "pago",
+          "paidAt": "2026-11-09",
+          "receiptNumber": "REC-9821"
+        },
+        {
+          "number": 2,
+          "dueDate": "2026-12-10",
+          "amount": 49.38,
+          "status": "pendente"
+        },
+        {
+          "number": 3,
+          "dueDate": "2027-01-10",
+          "amount": 49.38,
+          "status": "pendente"
+        },
+        {
+          "number": 4,
+          "dueDate": "2027-02-10",
+          "amount": 49.36,
+          "status": "pendente"
+        }
+      ]
+    },
+    {
+      "id": "carne-2",
+      "code": "FLOR-2026-002",
+      "clientId": "cli-2",
+      "clientName": "Carlos Eduardo Ramos",
+      "clientCpf": "321.654.987-11",
+      "clientPhone": "(21) 97654-3210",
+      "totalOriginal": 224.8,
+      "interestRate": 2.5,
+      "totalFinal": 236.04,
+      "installmentsCount": 3,
+      "status": "atrasado",
+      "createdAt": "2026-09-23T23:04:19.445Z",
+      "installments": [
+        {
+          "number": 1,
+          "dueDate": "2026-10-15",
+          "amount": 78.68,
+          "status": "atrasado"
+        },
+        {
+          "number": 2,
+          "dueDate": "2026-11-15",
+          "amount": 78.68,
+          "status": "pendente"
+        },
+        {
+          "number": 3,
+          "dueDate": "2026-12-15",
+          "amount": 78.68,
+          "status": "pendente"
+        }
+      ]
+    }
+  ],
+  "orders": [],
+  "installations": [
+    {
+      "id": "inst-1",
+      "clientName": "Mariana Silva",
+      "deviceInfo": "Android 14 (Samsung Galaxy S23)",
+      "installedAt": "2026-10-28T23:04:19.445Z",
+      "active": true
+    },
+    {
+      "id": "inst-2",
+      "clientName": "Carlos Eduardo",
+      "deviceInfo": "Android 13 (Motorola Edge 40)",
+      "installedAt": "2026-10-25T23:04:19.445Z",
+      "active": true
+    },
+    {
+      "id": "inst-3",
+      "clientName": "Juliana Paes",
+      "deviceInfo": "Android 14 (Xiaomi Redmi Note 13)",
+      "installedAt": "2026-11-01T23:04:19.445Z",
+      "active": true
+    }
+  ],
+  "settings": {
+    "featuredProductId": "prod-1",
+    "monthlyInterestRate": 2.5,
+    "allowedInstallments": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      10,
+      12
+    ],
+    "welcomeAudioText": "Olá! Seja muito bem-vindo à Floratta Cosmético. Conheça nossa fragrância exclusiva em destaque: Floratta Fleur Supreme Eau de Parfum. Sofisticação, elegância e as melhores condições no carnê para você!",
+    "whatsappNumber": "5511999998888",
+    "storeName": "Floratta Cosmético"
+  },
+  "apiTokens": [
+    {
+      "id": "tok-1",
+      "name": "Launcher Android Mobile",
+      "token": "floratta_sec_mfegqb1mnlaozuazmiybu",
+      "createdAt": "2026-11-02T23:04:19.445Z",
+      "active": true,
+      "lastUsedAt": "2026-11-02T23:04:27.028Z"
+    }
+  ]
+}

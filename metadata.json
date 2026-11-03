@@ -1,0 +1,8 @@
+{
+  "name": "Floratta Cosmético - Loja & App",
+  "description": "Aplicativo Floratta Cosmético para Android e Web com catálogo por abas, busca por IA, cadastro de clientes com LGPD, carnê de pagamento interno, controle por voz e painel administrativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

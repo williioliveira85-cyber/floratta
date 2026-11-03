@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-deep: #0f0618;
+    --color-bg-card: rgba(22, 10, 34, 0.65);
+    --color-border-glow: rgba(217, 70, 239, 0.25);
+  }
+
+  body {
+    background-color: #0c0514;
+    color: #f8fafc;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(18, 9, 28, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(217, 70, 239, 0.22);
+  box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.45);
+}
+
+.glass-card {
+  background: rgba(26, 12, 40, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(236, 72, 153, 0.2);
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.35);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-3px);
+  border-color: rgba(217, 70, 239, 0.45);
+  box-shadow: 0 14px 34px -4px rgba(217, 70, 239, 0.25);
+}
+
+/* Floating button with neon glow */
+.btn-floating {
+  background: linear-gradient(135deg, #ec4899 0%, #d946ef 50%, #8b5cf6 100%);
+  color: white;
+  box-shadow: 0 8px 24px -2px rgba(217, 70, 239, 0.45);
+  transition: all 0.25s ease;
+}
+
+.btn-floating:hover {
+  box-shadow: 0 12px 30px rgba(217, 70, 239, 0.65);
+  transform: translateY(-2px) scale(1.02);
+}
+
+.btn-floating:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 6, 24, 0.8);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(217, 70, 239, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 70, 239, 0.6);
+}
+
+/* Print Specific Rules for Carnê and Client Reports */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-page {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}

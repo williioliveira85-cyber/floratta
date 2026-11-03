@@ -1,0 +1,18 @@
+{
+  "name": "Floratta Cosmético",
+  "short_name": "Floratta",
+  "description": "Aplicativo Floratta Cosmético para vendas de perfumes e cosméticos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#12091c",
+  "theme_color": "#c026d3",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
