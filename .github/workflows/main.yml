@@ -1,0 +1,62 @@
+name: Gerar APK
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Instalar dependencias do app
+        run: npm install
+
+      - name: Instalar Capacitor
+        run: npm install @capacitor/core @capacitor/cli @capacitor/android
+
+      - name: Gerar o site
+        run: npm run build
+
+      - name: Criar projeto Android se nao existir
+        run: |
+          if [ ! -d android ]; then
+            npx cap init app com.wiliana.app --web-dir dist
+            npx cap add android
+          fi
+
+      - name: Copiar o site para o Android
+        run: npx cap sync android
+
+      - name: Compilar o APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug
+
+      - name: Publicar na Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.run_number }}
+          name: Versao ${{ github.run_number }}
+          files: android/app/build/outputs/apk/debug/app-debug.apk
+• Se o fluxo ficar com um X vermelho, abra a execução, clique no passo que falhou e copie a mensagem de erro. Me mande que eu ajusto o roteiro.
+• Se a pasta do site gerado não se chamar dist, troque dist por build na linha do cap init.
+• Para instalar o APK no celular, baixe o arquivo pelo navegador do aparelho e permita a instalação de fontes desconhecidas quando o Android pedir.
